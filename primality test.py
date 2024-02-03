@@ -17,7 +17,7 @@ n = eval(input("Enter the integer: "))
 
 if is_prime(n):
     print("The Given integer is prime number")
-    print("Number -> ",n)
 else:
     print("The given integer contains more than 2 factors")
-    print("Number -> ",n)
+
+print("Number -> ",n)
